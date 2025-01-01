@@ -1,2 +1,2 @@
 clear
-dotnet run
+dotnet watch run
