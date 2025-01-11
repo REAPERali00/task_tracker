@@ -244,7 +244,7 @@ Run scaffolding to auto-generate views:
 ```bash
 dotnet aspnet-codegenerator controller -name TaskController -m TaskTracker.Models.Task -dc TaskTracker.Data.TaskContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
 
-dotnet aspnet-codegenerator controller -name TaskController -m TaskTracker.Models.Task -dc TaskTracker.Data.TaskContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+dotnet aspnet-codegenerator controller -name TaskController -m task_tracker.Models.TaskTodo -dc task_tracker.Data.TaskDbContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
 ```
 
 ---
